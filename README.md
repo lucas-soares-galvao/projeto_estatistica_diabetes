@@ -1,14 +1,18 @@
-# Análise estatística de base de dados de diabetes
+# Análise Estatística de Base de Dados de Diabetes
 
-Diabetes é uma doença crônica grave na qual os indivíduos perdem a capacidade de regular efetivamente os níveis de glicose no sangue e pode levar a uma redução na qualidade de vida e na expectativa de vida.
+Diabetes é uma doença crônica grave na qual os indivíduos perdem a capacidade de regular efetivamente os níveis de glicose no sangue, o que pode levar a uma redução na qualidade de vida e na expectativa de vida.
 
-O Sistema de Vigilância de Fatores de Risco Comportamentais (BRFSS) é uma pesquisa telefônica relacionada à saúde que é coletada anualmente pelo CDC (Centro de Controle e Prevenção de Doenças dos Estados Unidos). A cada ano, a pesquisa coleta respostas de milhares de americanos sobre comportamentos de risco relacionados à saúde, condições crônicas de saúde e o uso de serviços preventivos. Para este projeto, foi utilizado conjunto de dados disponível no Kaggle para o ano de 2015. 
+Este projeto tem como objetivo realizar uma análise estatística detalhada de um conjunto de dados relacionado a diabetes, utilizando técnicas de visualização de dados e análise exploratória para identificar padrões e insights relevantes.
 
-https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+## Fonte dos Dados
+
+O Sistema de Vigilância de Fatores de Risco Comportamentais (BRFSS) é uma pesquisa telefônica relacionada à saúde, coletada anualmente pelo CDC (Centro de Controle e Prevenção de Doenças dos Estados Unidos). A cada ano, a pesquisa coleta respostas de milhares de americanos sobre comportamentos de risco relacionados à saúde, condições crônicas de saúde e o uso de serviços preventivos. Para este projeto, foi utilizado o conjunto de dados disponível no Kaggle para o ano de 2015.
+
+[Link para o conjunto de dados no Kaggle](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
 ![imagem](imagens/diabetes.jpg)
 
-## Organização do projeto
+## Organização do Projeto
 
 ```
 ├── .gitignore         <- Arquivos e diretórios a serem ignorados pelo Git
@@ -31,20 +35,41 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 ├── imagens         <- Imagens utilizada no projeto
 ```
 
-## Configuração do ambiente
 
-1. Faça o clone do repositório.
+## Configuração do Ambiente
 
+Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
+
+1. Clone o repositório:
     ```bash
-    git clone git@github.com:lucas-soares-galvao/projeto_estatistica_diabetes.git
+    git clone https://github.com/seu-usuario/projeto_estatistica_diabetes.git
     ```
 
-2. Crie um ambiente virtual para o seu projeto utilizando o `conda`.
-
+2. Navegue até o diretório do projeto:
     ```bash
-    conda env create -f ambiente.yml --name estatistica
+    cd projeto_estatistica_diabetes
     ```
 
-## Um pouco mais sobre a base
+3. Crie o ambiente Conda a partir do arquivo [ambiente.yml](http://_vscodecontentref_/2):
+    ```bash
+    conda env create -f ambiente.yml
+    ```
 
-[Clique aqui](referencias/01_dicionario_de_dados.md) para ver o dicionário de dados da base utilizada.
+4. Ative o ambiente:
+    ```bash
+    conda activate projeto_diabetes
+    ```
+
+## Objetivos do Projeto
+
+- Realizar uma análise exploratória dos dados (EDA) para entender a distribuição e as relações entre as variáveis.
+- Visualizar os dados utilizando bibliotecas como Matplotlib e Seaborn.
+- Identificar padrões e insights relevantes que possam ajudar na compreensão dos fatores de risco associados ao diabetes.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorar o projeto.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](http://_vscodecontentref_/3) para mais detalhes.
