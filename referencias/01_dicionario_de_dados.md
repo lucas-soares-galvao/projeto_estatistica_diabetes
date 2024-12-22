@@ -1,5 +1,11 @@
 # Dicionário de dados
 
+Diabetes é uma doença crônica grave na qual os indivíduos perdem a capacidade de regular efetivamente os níveis de glicose no sangue, o que pode levar a uma redução na qualidade de vida e na expectativa de vida.
+
+O Sistema de Vigilância de Fatores de Risco Comportamentais (BRFSS) é uma pesquisa telefônica relacionada à saúde, coletada anualmente pelo CDC (Centro de Controle e Prevenção de Doenças dos Estados Unidos). A cada ano, a pesquisa coleta respostas de milhares de americanos sobre comportamentos de risco relacionados à saúde, condições crônicas de saúde e o uso de serviços preventivos. Para este projeto, foi utilizado o conjunto de dados disponível no Kaggle para o ano de 2015.
+
+[Link para o conjunto de dados no Kaggle](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+
 - `Diabetes_binary`: 0 = sem diabetes, 1 = com diabetes
 - `HighBP`: 0 = sem pressão alta, 1 = com pressão alta
 - `HighChol`: 0 = sem colesterol alto, 1 = com colesterol alto

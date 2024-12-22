@@ -6,9 +6,7 @@ Este projeto tem como objetivo realizar uma análise estatística detalhada de u
 
 ## Fonte dos Dados
 
-O Sistema de Vigilância de Fatores de Risco Comportamentais (BRFSS) é uma pesquisa telefônica relacionada à saúde, coletada anualmente pelo CDC (Centro de Controle e Prevenção de Doenças dos Estados Unidos). A cada ano, a pesquisa coleta respostas de milhares de americanos sobre comportamentos de risco relacionados à saúde, condições crônicas de saúde e o uso de serviços preventivos. Para este projeto, foi utilizado o conjunto de dados disponível no Kaggle para o ano de 2015.
-
-[Link para o conjunto de dados no Kaggle](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+Para saber mais sobre a fonte de dados: [Clique aqui](referencias/01_dicionario_de_dados.md)
 
 ![imagem](imagens/diabetes.jpg)
 
